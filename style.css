@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    height: 100%;
+    width: 100%;
+   background-color: rgba(128, 128, 128, 0.728);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content{
+    height: 90%;
+    width: 80%;
+    background-color: rgba(23,23,23,255);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+    
+}
+.nav{
+    display: flex;
+    padding: 1% 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+.anchor{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+
+.anchor a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.gol{
+    height: 40px;
+    width:40px;
+    border-radius: 50px;
+    background-color: rgba(116,254,81,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.con1 {
+    height: 75%;
+    width: 90%;
+    /* background-color: red; */
+    margin-left: 6%;
+    display: flex;
+    margin-top: 35px;
+    
+}
+
+.con2{
+    height: 100%;
+    width: 55%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* margin-left: 40px; */
+}
+.con3{
+    height: 100%;
+    width: 45%;
+    background-color: white;
+    background-image: url(Screenshot\ 2024-12-21\ 234301.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
